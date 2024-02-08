@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  background: #fff;
+}
+
+.container {
+  max-width: 1050px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 3px solid #000;
+  padding: 30px;
+  align-items: center;
+}
+
+img {
+  cursor: pointer;
+  width: 500px;
+  height: 270px;
+  transition: all 0.7s ease;
+}
+
+.imgs {
+  display: flex;
+  gap: 130px;
+}
+
+.state:hover {
+  padding: 20px;
+  -webkit-box-shadow: 17px 22px 30px 0px rgba(34, 60, 80, 0.2) inset;
+  -moz-box-shadow: 17px 22px 30px 0px rgba(34, 60, 80, 0.2) inset;
+  box-shadow: 17px 22px 30px 0px rgba(34, 60, 80, 0.2) inset;
+}
+
+.emblem {
+  width: 300px;
+  height: 270px;
+  border-radius: 360px;
+}
+
+.emblem:hover {
+  padding: 20px;
+  -webkit-box-shadow: 17px 22px 30px 0px rgba(34, 60, 80, 0.2) inset;
+  -moz-box-shadow: 17px 22px 30px 0px rgba(34, 60, 80, 0.2) inset;
+  box-shadow: 17px 22px 30px 0px rgba(34, 60, 80, 0.2) inset;
+  border-radius: 360px;
+}
+
+.info {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 900px;
+  font-size: 17px;
+}
+
+.bright img {
+  width: 24px;
+  height: 24px;
+}
+
+.dark {
+  background-color: #646161;
+  color: #fff;
+}
+
+h1 {
+  padding: 7px;
+}
+
+h2 {
+  padding: 7px;
+}
+
